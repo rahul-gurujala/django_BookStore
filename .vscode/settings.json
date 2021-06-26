@@ -1,0 +1,19 @@
+{
+    "python.languageServer": "Pylance",
+    // Following settings applied only if you have installed Django extension for vscode
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    // Following setting is for enable html suggetions which is disabled by above extension
+    "emmet.includeLanguages": {"django-html": "html"},
+    "beautify.language": {
+        "html": [
+            "htm",
+            "html",
+            "django-html"
+        ]
+    },
+}
